@@ -11,4 +11,8 @@ flake::
 isort::
 	isort .
 
-lint:: black-check isort-check flake
+lint::
+	black isort flake
+
+test-run::
+	python -m test_src.whats_the_date
