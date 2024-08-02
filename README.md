@@ -1,4 +1,4 @@
-# base_template
+# Base Template
 
 ## Environment setup
 
