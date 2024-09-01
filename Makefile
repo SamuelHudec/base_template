@@ -11,8 +11,8 @@ flake::
 isort::
 	isort .
 
-lint::
-	black isort flake
+pretty::
+	black . && isort . && flake8 . --exclude=venv,.venv,env
 
 test-run::
 	python -m test_src.whats_the_date
